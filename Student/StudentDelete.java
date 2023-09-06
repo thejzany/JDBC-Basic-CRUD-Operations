@@ -11,7 +11,7 @@ public class StudentDelete {
 		String sql = "DELETE FROM student WHERE ID=5";
 		Connection connection=null;
 		
-		//STEP1: LOAD/REGISTER THE DRIVE 
+		//STEP1: LOAD/REGISTER THE DRIVER 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			

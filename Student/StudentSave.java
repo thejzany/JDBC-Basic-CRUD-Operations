@@ -11,7 +11,7 @@ public class StudentSave {
 		String sql = "INSERT INTO student VALUES (1,'Jay','jay@mail.com')";
 		Connection connection=null;
 		
-		//STEP1: LOAD/REGISTER THE DRIVE 
+		//STEP1: LOAD/REGISTER THE DRIVER 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
